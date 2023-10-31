@@ -12,13 +12,15 @@ public class TokenData {
     @JsonProperty("auth-token")
     private String token;
 
-    public TokenData(String token) {
-        this.token=token;
-    }
+
 
     @Override
     public String toString() {
         return "token='" + token + '\'' +
                 '}';
+    }
+
+    public String getToken() {
+        return this.token;
     }
 }

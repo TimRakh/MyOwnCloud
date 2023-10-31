@@ -33,12 +33,7 @@ public class File {
     @JsonProperty("size")
     private Long size;
 
-    public File() {
-        this.user = user;
-        this.fileName = fileName;
-        this.file = file;
-        this.size = size;
-    }
+
 
     public String getFileName() {
         return this.fileName;
